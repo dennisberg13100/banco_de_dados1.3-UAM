@@ -6,14 +6,19 @@ A principio a ideia er criar duas tabelas, uma de clientes e outra com cidades e
 
 Como achei a atividade monótona resolvi craia 20 ações diferentes com os banco de dados, como criar, inserir dados, ler os dados, alterar os dados e por fim deletar os dados e as tabelas também. 
 
-Para poder rodar o código é necessário baixar o MySQL, as instruções de instalação podem ser encontradas na documentação:
+## Rodando o código
+
+- Para poder rodar o código é necessário baixar o MySQL, as instruções de instalação podem ser encontradas na documentação:
 https://dev.mysql.com/doc/refman/8.0/en/installing.html
 
-tanbém é necessário conectar ao banco de dados:
+- Também é necessário conectar ao banco de dados:
+```
 $> mysql -h host -u user -p
 Enter password: ********
+```
+- Criar um arquivo .env na pasta root do projeto seguindo o exemplo do arquivo .env.example
 
-e criar um arquico .env na pasta root do projeto seguindo o exemplo do arquivo .env.example
-
-O código roda em node e tem duas dependências, o dotenv e o mysql2 para instalar tudo basta usar o comando 
-$> npm install 
+- O código roda em node e tem duas dependências, o dotenv e o mysql2 para instalar tudo basta usar o comando 
+```
+$> npm install
+```
